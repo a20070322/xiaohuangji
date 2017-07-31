@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class="classname">
+  <view class="classname" wx:for="{{mydata}}" wx:key="{{index}}">
+    {{item.text}}
+  </view>
+</view>
+<input type="text" confirm-type="send" bindconfirm="mysend" />
+<button bindtap="mysend">点我</button>
+
