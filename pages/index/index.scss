@@ -1,0 +1,117 @@
+page{
+  height:100%;
+  .box{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    .newbox{
+      flex:1;
+      overflow-x: hidden;
+      overflow-y: auto;
+      background: #202022;
+      font-size: 33rpx;
+      .item1{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 27rpx;
+        position: relative;
+        margin: 20rpx 24rpx;
+        .jiao{
+          position: absolute;
+          bottom: 7rpx;
+          left: 0;
+          width: 27rpx;
+          height: 30rpx;
+          background: #ffffff;
+          // position: absolute;
+          view{
+            background: #202022;
+            width: 27rpx;
+            height: 30rpx;
+            border-bottom-right-radius: 44rpx 39rpx;
+          }
+        }
+      }
+      .item2{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 27rpx;
+        position: relative;
+        margin: 20rpx 24rpx;
+        .item{
+          text{
+            color:#fff;
+            background: #6060d2;
+          }
+        }
+        .jiao{
+          position: absolute;
+          bottom: 7rpx;
+          right:0;
+          width: 27rpx;
+          height: 30rpx;
+          background: #6060d2;
+          // position: absolute;
+          view{
+            background: #202022;
+            width: 27rpx;
+            height: 30rpx;
+            border-bottom-left-radius: 44rpx 39rpx;
+          }
+        }
+      }
+      .item{
+        width: 420rpx;
+        text{
+          box-sizing: border-box;
+          padding: 20rpx 35rpx 20rpx 35rpx;
+          display:block;
+          background: #ffffff;
+          border-radius: 10rpx;
+          color:#000;
+          font-size: 30rpx;
+        }
+      }
+    }
+    .send{
+      height: 132rpx;
+      display: flex;
+      align-items: center;
+      background: #242428;
+      .type{
+        border:1rpx solid #1a181d;
+        background: #343437;
+        color:#fff;
+        border-radius: 80rpx;
+        width: 80rpx;
+        height: 80rpx;
+        margin:0 23rpx 0 27rpx;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: 38rpx;
+      }
+      .mysend{
+        background: #7272de;
+        color:#fff;
+        border-radius: 12rpx;
+        width: 150rpx;
+        height: 70rpx;
+        margin:0 20rpx 0 30rpx;
+        line-height: 70rpx;
+        font-style: 38rpx;
+        box-shadow: inset i-4rpx 5rpx 15rpx #9595eb;
+      }
+      input{
+        padding-left: 10rpx;
+        background: #1d1d21;
+        flex:1;
+        font-style: 38rpx;
+        color:#a2a2a2;
+        box-shadow: inset  0rpx 0rpx 10rpx #19191d;
+        border-radius: 12rpx;
+        height: 80rpx;
+      }
+    }
+  }
+}

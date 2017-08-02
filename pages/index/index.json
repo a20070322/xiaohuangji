@@ -1,1 +1,7 @@
-{}
+{
+  "navigationBarBackgroundColor": "#373639",
+  "navigationBarTextStyle": "#fff",
+  "navigationBarTitleText": "有点智障的机器人",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

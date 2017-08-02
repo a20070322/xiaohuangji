@@ -1,0 +1,30 @@
+{
+  "name": "xiaohuangji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a20070322/xiaohuangji.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a20070322/xiaohuangji/issues"
+  },
+  "homepage": "https://github.com/a20070322/xiaohuangji#readme",
+  "dependencies": {
+    "css": "^2.2.1",
+    "css-loader": "^0.28.4",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "sass": "^1.0.0-beta.2"
+  }
+}

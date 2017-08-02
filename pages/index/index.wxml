@@ -1,9 +1,20 @@
 <!--pages/index/index.wxml-->
-<view class="classname">
-  <view class="classname" wx:for="{{mydata}}" wx:key="{{index}}">
-    {{item.text}}
+<view class="box">
+{{}}
+  <view class="newbox">
+    <view class="{{item.type=='feifei'?'item1':'item2'}}" wx:for="{{mydata}}" wx:key="{{index}}" >
+    <view class="jiao">
+      <view>
+      </view>
+    </view>
+      <view class="item">
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="send">
+  <button class="type">语</button>
+    <input type="text" bindinput="bindinput" confirm-type="send" bindconfirm="mysend" value="{{mytext}}" />
+    <button bindtap="mysend" class="mysend">发送</button>
   </view>
 </view>
-<input type="text" confirm-type="send" bindconfirm="mysend" />
-<button bindtap="mysend">点我</button>
-
