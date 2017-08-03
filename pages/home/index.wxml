@@ -1,2 +1,32 @@
-<!--pages/home/index.wxml-->
-<text>pages/home/index.wxml</text>
+<view class="box">
+
+  <navigator class="item" url="../index/index">
+  <view class="myicon">
+    <view class="a a1">
+      <text>智障机器人</text>
+    </view>
+  </view>
+  </navigator>
+
+  <view class="item" >
+  <view class="myicon">
+    <view class="a a2">
+      <text>单位换算</text>
+    </view>
+  </view>
+  </view>
+  <view class="item" >
+  <view class="myicon">
+    <view class="a a3">
+      <text>货币换算</text>
+    </view>
+  </view>
+  </view>
+  <view class="item" >
+  <view class="myicon">
+    <view class="a a4">
+      <text>暂时没想好</text>
+    </view>
+  </view>
+  </view>
+</view>
