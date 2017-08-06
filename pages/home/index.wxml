@@ -8,13 +8,14 @@
   </view>
   </navigator>
 
-  <view class="item" >
+  <navigator class="item" url="../cctv/index" >
   <view class="myicon">
     <view class="a a2">
-      <text>单位换算</text>
+      <text>央视节目单</text>
     </view>
   </view>
-  </view>
+  </navigator>
+
   <view class="item" >
   <view class="myicon">
     <view class="a a3">

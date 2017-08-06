@@ -2,7 +2,9 @@
   "pages":[
     "pages/home/index",
     "pages/index/index",
-    "pages/test/index"
+    "pages/test/index",
+    "pages/cctv/index",
+    "pages/shike/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

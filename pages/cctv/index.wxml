@@ -1,0 +1,17 @@
+<!--pages/cctv/index.wxml-->
+<view class="showbox">
+  <navigator wx:for="{{cctvlist}}" wx:key="item" class="list" url="{{'../shike/index?cctvid='+index}}">
+    <view class="let">
+      <text>{{item.channelName}}</text>
+    </view>
+    <view class="right">
+      <view class="righta">
+        <text>{{item.isLive}}</text>
+      </view>
+      <view class="rightb">
+        <text>开始时间: {{item.liveSt}}</text>
+      </view>
+    </view>
+  </navigator>
+
+</view>

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+page {
+  height: 100%;
+  background: linear-gradient(#415067, #434a65, #594461);
+  color: #fff;
+  font-family: "微软雅黑"; }
+  page .showbox > .list {
+    box-sizing: border-box;
+    padding: 40rpx 0;
+    margin: 40rpx 0;
+    display: flex;
+    background: rgba(50, 56, 78, 0.6); }
+    page .showbox > .list .let {
+      width: 200rpx;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      page .showbox > .list .let text {
+        text-align: center; }
+    page .showbox > .list .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column; }
+      page .showbox > .list .right .righta {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        page .showbox > .list .right .righta text {
+          color: #f5f9ff;
+          width: 500rpx;
+          font-size: 30rpx;
+          text-align: center; }
+      page .showbox > .list .right .rightb {
+        height: 50rpx;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(162, 210, 250, 0.7);
+        font-size: 24rpx; }
