@@ -1,7 +1,7 @@
 {
-  "navigationBarBackgroundColor": "#3a5c78",
+  "navigationBarBackgroundColor": "#373639",
   "navigationBarTextStyle": "#fff",
-  "navigationBarTitleText": "CCTV节目单",
+  "navigationBarTitleText": "信息提交",
   "backgroundColor": "#eeeeee",
   "backgroundTextStyle": "light"
 }

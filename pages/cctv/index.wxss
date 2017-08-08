@@ -11,6 +11,7 @@ page {
     display: flex;
     background: rgba(50, 56, 78, 0.6); }
     page .showbox > .list .let {
+      opacity: 0.7;
       width: 200rpx;
       display: flex;
       justify-content: center;
@@ -22,6 +23,7 @@ page {
       display: flex;
       flex-direction: column; }
       page .showbox > .list .right .righta {
+        opacity: 0.7;
         display: flex;
         justify-content: center;
         align-items: center; }

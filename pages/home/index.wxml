@@ -1,5 +1,4 @@
 <view class="box">
-
   <navigator class="item" url="../index/index">
   <view class="myicon">
     <view class="a a1">
@@ -30,4 +29,9 @@
     </view>
   </view>
   </view>
+</view>
+<view class="guan">
+  <navigator class="button" url="../sms/index">
+    关于我们
+  </navigator>
 </view>

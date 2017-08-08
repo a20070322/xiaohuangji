@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/sms/index",
     "pages/home/index",
     "pages/index/index",
     "pages/test/index",

@@ -7,13 +7,17 @@ Page({
   data: {
     mytext:"",
     mydata:[
+      // {
+      //   type:"user",
+      //   text:"你好"
+      // },
+      // {
+      //   type: "feifei",
+      //   text: "我不好"
+      // }
       {
-        type:"user",
-        text:"你好"
-      },
-      {
-        type: "feifei",
-        text: "我不好"
+        type:"feifei",
+        text:"智障的机器人为您服务"
       }
     ]
   },

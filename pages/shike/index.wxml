@@ -1,2 +1,8 @@
-<!--pages/shike/index.wxml-->
-<text>pages/shike/index.wxml</text>
+<view class="box" wx:for="{{datalist}}" wx:key="item">
+  <view class="left">
+      {{item.showTime}}
+  </view>
+  <view class="right">
+      {{item.t}}
+  </view>
+</view>
