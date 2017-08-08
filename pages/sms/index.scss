@@ -9,7 +9,7 @@ page{
     box-shadow:inset 8rpx 8rpx 5rpx 10rpx #252525;
     box-sizing: border-box;
     padding: 20rpx;
-    padding-bottom: 50rpx;
+    // padding-bottom: 50rpx;
     .item{
       background: linear-gradient(#313131,#323232);
       box-sizing: border-box;
@@ -57,4 +57,22 @@ page{
       }
     }
   }
+  .button{
+    margin: 60rpx auto;
+      width: 600rpx;
+      height: 100rpx;
+      border-radius: 100rpx;
+      background: #373737;
+      display: flex;
+      justify-content: center;
+      color:#a83640;
+      line-height: 100rpx;
+      font-size: 44rpx;
+      // box-shadow:0rpx 5rpx 20rpx #2e2e2e;
+      // border-radius: 4px;
+      border:1px solid #333;
+      box-shadow:8rpx 8rpx 5rpx 10rpx #252525;
+      box-sizing: border-box;
+      // padding-top: 6rpx;
+    }
 }

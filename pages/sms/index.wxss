@@ -7,8 +7,7 @@ page {
     border-radius: 100rpx;
     box-shadow: inset 8rpx 8rpx 5rpx 10rpx #252525;
     box-sizing: border-box;
-    padding: 20rpx;
-    padding-bottom: 50rpx; }
+    padding: 20rpx; }
     page .box .item {
       background: linear-gradient(#313131, #323232);
       box-sizing: border-box;
@@ -42,3 +41,17 @@ page {
           box-shadow: inset 4rpx 4rpx 3rpx 6rpx #252525;
           border: 1rpx solid #3e3e3e;
           color: #545055; }
+  page .button {
+    margin: 60rpx auto;
+    width: 600rpx;
+    height: 100rpx;
+    border-radius: 100rpx;
+    background: #373737;
+    display: flex;
+    justify-content: center;
+    color: #a83640;
+    line-height: 100rpx;
+    font-size: 44rpx;
+    border: 1px solid #333;
+    box-shadow: 8rpx 8rpx 5rpx 10rpx #252525;
+    box-sizing: border-box; }

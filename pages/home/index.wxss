@@ -51,22 +51,22 @@ page {
             transform: rotate(-45deg); }
         page .box .item > .myicon .a1 {
           background: linear-gradient(#FFE26A, #E7950E);
-          box-shadow: inset -4rpx -5rpx 14rpx #9e5e06; }
+          box-shadow: inset -4rpx -5rpx 14rpx #9e5e06, 10rpx 0rpx 5rpx 10rpx #E7950E; }
           page .box .item > .myicon .a1 > text {
             color: #574e01; }
         page .box .item > .myicon .a2 {
           background: linear-gradient(#86c3fa, #87c0ff);
-          box-shadow: inset -4rpx -5rpx 14rpx #4b709a; }
+          box-shadow: inset -4rpx -5rpx 14rpx #4b709a, 10rpx 0rpx 5rpx 10rpx #87c0ff; }
           page .box .item > .myicon .a2 > text {
             color: #2f4962; }
         page .box .item > .myicon .a3 {
           background: linear-gradient(#c18fee, #d19aed);
-          box-shadow: inset -4rpx -5rpx 14rpx #785a8e; }
+          box-shadow: inset -4rpx -5rpx 14rpx #785a8e, 10rpx 0rpx 5rpx 10rpx #d19aed; }
           page .box .item > .myicon .a3 > text {
             color: #49285f; }
         page .box .item > .myicon .a4 {
           background: linear-gradient(#ea76c1, #dd3b90);
-          box-shadow: inset -4rpx -5rpx 14rpx #80244d; }
+          box-shadow: inset -4rpx -5rpx 14rpx #80244d, 10rpx 0rpx 5rpx 10rpx #dd3b90; }
           page .box .item > .myicon .a4 > text {
             color: #5f1e40; }
       page .box .item > view {
@@ -87,6 +87,5 @@ page {
       line-height: 100rpx;
       font-size: 44rpx;
       border: 1px solid #333;
-      box-shadow: inset 8rpx 8rpx 5rpx 10rpx #252525;
-      box-sizing: border-box;
-      padding-top: 6rpx; }
+      box-shadow: 8rpx 8rpx 5rpx 10rpx #252525;
+      box-sizing: border-box; }

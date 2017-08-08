@@ -48,7 +48,7 @@
         <input type="text"/>
     </view>
   </view>
-</view>
-<view class="">
-  提交
+  <view class="button">
+    提交
+  </view>
 </view>

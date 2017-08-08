@@ -45,6 +45,7 @@ page{
           display: flex;
           align-items: center;
           justify-content: center;
+          // box-shadow:10rpx 0rpx 5rpx 10rpx #252525;
           &>text{
             font-size: 40rpx;
             font-weight: 900;
@@ -54,28 +55,33 @@ page{
         }
         .a1{
           background:linear-gradient(#FFE26A, #E7950E);
-          box-shadow:inset -4rpx -5rpx 14rpx #9e5e06;
+          box-shadow:
+          inset -4rpx -5rpx 14rpx #9e5e06,
+          10rpx 0rpx 5rpx 10rpx #E7950E;
           &>text{
             color:#574e01;
           }
         }
         .a2{
           background:linear-gradient(#86c3fa, #87c0ff);
-          box-shadow:inset -4rpx -5rpx 14rpx #4b709a;
+          box-shadow:inset -4rpx -5rpx 14rpx #4b709a,
+          10rpx 0rpx 5rpx 10rpx #87c0ff;
           &>text{
             color:#2f4962;
           }
         }
         .a3{
           background:linear-gradient(#c18fee, #d19aed);
-          box-shadow:inset -4rpx -5rpx 14rpx #785a8e;
+          box-shadow:inset -4rpx -5rpx 14rpx #785a8e,
+          10rpx 0rpx 5rpx 10rpx #d19aed;
           &>text{
             color:#49285f;
           }
         }
         .a4{
           background:linear-gradient(#ea76c1, #dd3b90);
-          box-shadow:inset -4rpx -5rpx 14rpx #80244d;
+          box-shadow:inset -4rpx -5rpx 14rpx #80244d,
+          10rpx 0rpx 5rpx 10rpx #dd3b90;
           &>text{
             color:#5f1e40;
           }
@@ -104,9 +110,8 @@ page{
         // box-shadow:0rpx 5rpx 20rpx #2e2e2e;
         // border-radius: 4px;
         border:1px solid #333;
-        box-shadow:inset 8rpx 8rpx 5rpx 10rpx #252525;
+        box-shadow:8rpx 8rpx 5rpx 10rpx #252525;
         box-sizing: border-box;
-        padding-top: 6rpx;
       }
   }
 }

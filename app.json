@@ -1,11 +1,11 @@
 {
   "pages":[
-    "pages/sms/index",
     "pages/home/index",
     "pages/index/index",
     "pages/test/index",
     "pages/cctv/index",
-    "pages/shike/index"
+    "pages/shike/index",
+    "pages/sms/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
